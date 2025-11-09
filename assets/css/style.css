@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 100vh;
+
+    text-align: center;
+    color: #926239;
+
+    background-color: white;
+    background-image: url("./../images/ракушка.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero {
+    
+}
+
+button {
+    padding: 0.5% 0.75%;
+    background-color: transparent;
+
+    border-radius: 8px;
+    border: 1px solid #926239;
+
+    color: #926239;
+
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #926239;
+}
