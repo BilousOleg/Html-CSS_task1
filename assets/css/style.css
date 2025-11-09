@@ -36,7 +36,8 @@ header {
     margin: 0;
 }
 
-button {
+a {
+    display: inline-block;
     padding: 1.25% 2%;
     background-color: transparent;
 
@@ -44,11 +45,12 @@ button {
     border: 1px solid #926239;
 
     color: #926239;
+    text-decoration: none;
 
     cursor: pointer;
 }
 
-button:hover {
+a:hover {
     color: white;
     background-color: #926239;
 }
