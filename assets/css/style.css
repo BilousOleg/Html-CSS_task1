@@ -6,12 +6,12 @@
 
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 
 header {
     min-height: 100vh;
 
-    text-align: center;
     color: #926239;
 
     background-color: white;
@@ -52,4 +52,31 @@ a {
 a:hover {
     color: white;
     background-color: #926239;
+}
+
+.light-paragraph {
+    background-color: white;
+    color: #926239;
+    font-size: 14px;
+    padding: 1%;
+    line-height: 1.5;
+}
+
+.dark-paragraph {
+    background-color: #926239;
+    color: white;
+    font-size: 14px;
+    padding: 1%;
+    line-height: 1.5;
+}
+
+footer {
+    font-size: 0;
+}
+
+footer p {
+    display: inline-block;
+    text-align: start;
+    width: calc(100% / 3);
+    font-size: 16px;
 }
