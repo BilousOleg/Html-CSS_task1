@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 header {
     min-height: 100vh;
 
@@ -18,16 +22,22 @@ header {
 }
 
 .hero {
-    height: fit-content;
+    /* height: fit-content; */
+    height: 12vh;
     display: inline-block;
+    margin-top: calc(50vh - 12vh);
 }
 
 .hero * {
     margin-top: 1.25%;
 }
 
+.hero > h1 {
+    margin: 0;
+}
+
 button {
-    padding: 0.5% 0.75%;
+    padding: 1.25% 2%;
     background-color: transparent;
 
     border-radius: 8px;
