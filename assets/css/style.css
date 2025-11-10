@@ -11,6 +11,7 @@ body {
 
 header {
     min-height: 100vh;
+    padding: 0 20%;
 
     color: #926239;
 
@@ -22,9 +23,10 @@ header {
 }
 
 .hero {
-    height: 12vh;
     display: inline-block;
-    margin-top: calc(50vh - 12vh);
+    
+    height: fit-content;
+    margin: calc(50vh - 8vh) 0;
 }
 
 .hero * {   /* Використання комбінатора " " для виділення всіх дітей елементу класу .hero для заміни властивості gap: ; у FlexBox. Розумію, що де-факто я ще цього не проходив, але вирішив, що так буде краще)  */
